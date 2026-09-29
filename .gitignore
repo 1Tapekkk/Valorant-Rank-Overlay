@@ -1,0 +1,24 @@
+# Private local settings, API keys, account history, and logs
+/overlay/data/
+**/.env
+**/.env.*
+!**/.env.example
+*.log
+*.pid
+*.tmp
+*.pem
+*.key
+
+# Dependencies, local tools, and generated archives
+node_modules/
+.sites-runtime/
+/asset-staging/
+/releases/
+*.zip
+
+# Editors and operating systems
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+Desktop.ini
